@@ -7,12 +7,6 @@ $(document).ready(setTimeout(function() {
 
 $(document).ready(function() {
 
-// Навигация по слайдам
-    $('#fullpage').fullpage({
-        menu: '#menu',
-        anchors: ['intro', 'services', 'projects', 'clients', 'partners', 'contacts'],
-    });
-
 // Открытие попапов
     var btn = $('.popup_open');
     btn.on('click', function() {
