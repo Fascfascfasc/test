@@ -1,0 +1,18 @@
+body {
+    overflow: hidden;
+    background: #fff;
+    font-family: Helvetica, Arial, sans;
+}
+
+#fullpage,
+.section {
+    height: 100%;
+}
+.section {
+    position: relative;
+    background-color: #edf0f0;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 0 100px;
+}

@@ -1,0 +1,27 @@
+body {
+    overflow: hidden;
+    background: #fff;
+    font-family: Helvetica, Arial, sans;
+}
+
+#fullpage,
+.section {
+    height: 100%;
+}
+.section {
+    position: relative;
+    background-color: #edf0f0;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.section__inner {
+    margin: auto;
+    max-width: 320px;
+}
+.text {
+    margin-bottom: 40px;
+}
+.text:last-child {
+    margin-bottom: 100px;
+}
