@@ -164,7 +164,7 @@
             responsive: 0, //backwards compabitility with responsiveWidth
             responsiveWidth: 0,
             // responsiveHeight: 620,
-            responsiveHeight: 560,
+            responsiveHeight: 500,
             responsiveSlides: true,
 
             //Custom selectors
