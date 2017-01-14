@@ -165,7 +165,7 @@
             responsiveWidth: 0,
             // responsiveHeight: 620,
             responsiveHeight: 560,
-            responsiveSlides: false,
+            responsiveSlides: true,
 
             //Custom selectors
             sectionSelector: SECTION_DEFAULT_SEL,
