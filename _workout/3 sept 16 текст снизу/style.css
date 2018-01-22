@@ -1,0 +1,23 @@
+body{
+
+    padding: 0px;
+    margin: 0px;
+    width: 200px
+}
+
+div{
+    /*width: 150px;
+    height: 200px
+    min-height: 50px;*/
+    background: #6200fd;
+    color: #ffffff;
+    position: relative;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div p1{
+    position: absolute; bottom: 0;
+}
+div p2{
+    position: absolute; bottom: 0;
+}

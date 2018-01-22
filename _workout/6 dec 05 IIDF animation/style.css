@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #005aaa;
+}
+
+.wrapper {
+  position: relative;
+  margin: 50px auto 0;
+  width: 700px;
+  height: 500px;
+}
+img {
+  position: absolute;
+}
+.animation {
+  width: 800px;
+  margin: 0 auto;
+}
+.back-frame {
+  background: url(./img/рамка-внутр.png) no-repeat center center;
+}
+
+.ballon {
+  background: url(./img/ballon.png) no-repeat 400px 100px;
+  animation: ballon 5s cubic-bezier(.49, 0, .53, 1) infinite alternate;
+  -webkit-animation: ballon 5s cubic-bezier(.49, 0, .53, 1) infinite alternate;
+}
+@keyframes ballon {
+  from { background-position: 400px 280px, 0 0; }
+  to { background-position: 400px 0px, 0 0; }
+}
+@-webkit-keyframes ballon {
+  from { background-position: 400px 280px, 0 0; }
+  to { background-position: 400px 0px, 0 0; }
+}
+
+.cloud-1 {
+  background: url(./img/cloud-1.png) no-repeat 200px 200px;
+}
+.cloud-2 {
+  background: url(./img/cloud-2.png) no-repeat 600px 175px;
+}
+.cloud-3 {
+  background: url(./img/cloud-3.png) no-repeat 400px 80px;
+}
+
+.train {
+  background: url(./img/train.png) no-repeat 500px 408px;
+  animation: train 3s linear 1 backwards;
+  -webkit-animation: train 3s linear 1 backwards;
+}
+@keyframes train {
+  from { background-position: 635px 408px, 0 0; }
+  to { background-position: -1500px 408px, 0 0; }
+}
+@-webkit-keyframes {
+  from { background-position: 635px 408px, 0 0; }
+  to { background-position: -1500px 408px, 0 0; }
+}
+
+.car {
+  background: url(./img/car.png) no-repeat 400px 424px;
+  animation: car 3s linear 1 backwards;
+  -webkit-animation: car 3s linear 1 backwards;
+}
+@keyframes car {
+  from { background-position: 603px 424px, 0 0; }
+  to { background-position: 50px 424px, 0 0; }
+}
+@-webkit-keyframes car {
+  from { background-position: 603px 424px, 0 0; }
+  to { background-position: 50px 424px, 0 0; }
+}
+
+.left-outline-frame {
+  background: url(./img/рамка-лев-внеш.png) no-repeat -128px 260px;
+  height: 750px;
+}
+.right-outline-frame {
+  background: url(./img/рамка-прав-внеш.png) no-repeat 625px 313px;
+  height: 750px;
+}
